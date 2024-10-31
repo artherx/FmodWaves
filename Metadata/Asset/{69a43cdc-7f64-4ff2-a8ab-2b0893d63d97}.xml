@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{69a43cdc-7f64-4ff2-a8ab-2b0893d63d97}">
+		<property name="assetPath">
+			<value>Holiwis/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{374a7e8a-5a9e-4e8c-aaee-39332455bff7}</destination>
+		</relationship>
+	</object>
+</objects>

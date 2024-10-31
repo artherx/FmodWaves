@@ -5,7 +5,7 @@
 			<value>Holiwis</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{bd47a42f-3ab5-41cc-9422-dba64d94d6ac}</destination>
@@ -38,6 +38,10 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{09f5f9f5-f56b-4065-bfb8-73b370ef236b}">
+		<relationship name="modules">
+			<destination>{102d4c74-b981-464b-af9a-cc5fa3a4865b}</destination>
+			<destination>{9509c918-6907-44e3-ade8-9f9af388e3dd}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{3b75cc14-1cee-4cb6-9f9f-904d5e453562}</destination>
 		</relationship>
@@ -56,9 +60,10 @@
 	<object class="EventAutomatableProperties" id="{3cb63f38-ea35-43bf-822c-d4f38b672e61}" />
 	<object class="MarkerTrack" id="{e3907542-ae3f-4fe6-8388-aa850e1ff05d}" />
 	<object class="Timeline" id="{36d4bd2f-2687-434b-b647-a0c5d73d0f6e}">
-		<property name="isProxyEnabled">
-			<value>false</value>
-		</property>
+		<relationship name="modules">
+			<destination>{102d4c74-b981-464b-af9a-cc5fa3a4865b}</destination>
+			<destination>{9509c918-6907-44e3-ade8-9f9af388e3dd}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{3b75cc14-1cee-4cb6-9f9f-904d5e453562}">
 		<relationship name="effectChain">
@@ -69,6 +74,25 @@
 		</relationship>
 		<relationship name="mixer">
 			<destination>{d6be5962-a6ef-420f-bfff-de74f9f0303b}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{102d4c74-b981-464b-af9a-cc5fa3a4865b}">
+		<property name="length">
+			<value>7.056</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{fc1062f0-5bdf-4ab3-8735-ecb1fad31fc6}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{9509c918-6907-44e3-ade8-9f9af388e3dd}">
+		<property name="start">
+			<value>7.056</value>
+		</property>
+		<property name="length">
+			<value>1.5673469387755101</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{357de5ba-7ed8-4ebb-9bea-5cb43b98a2fc}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{fccdab1a-4799-459f-a8bf-1e94dbd90651}">
