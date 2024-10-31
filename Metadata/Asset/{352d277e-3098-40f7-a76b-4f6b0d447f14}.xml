@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="EncodableAsset" id="{386b48af-5c77-40e2-9d94-cef5f79ae5c7}">
+	<object class="EncodableAsset" id="{352d277e-3098-40f7-a76b-4f6b0d447f14}">
 		<property name="assetPath">
-			<value>hurt/</value>
+			<value>reload/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{374a7e8a-5a9e-4e8c-aaee-39332455bff7}</destination>

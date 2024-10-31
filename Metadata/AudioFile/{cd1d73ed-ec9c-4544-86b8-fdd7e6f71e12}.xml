@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{468b3b77-4ba3-4a21-b139-d82f90683241}">
+	<object class="AudioFile" id="{cd1d73ed-ec9c-4544-86b8-fdd7e6f71e12}">
 		<property name="assetPath">
-			<value>hurt/hurt2.wav</value>
+			<value>reload/reload.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>44.0999985</value>
+			<value>48</value>
 		</property>
 		<property name="channelCount">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.19569160997732427</value>
+			<value>6.1680000000000001</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{374a7e8a-5a9e-4e8c-aaee-39332455bff7}</destination>
