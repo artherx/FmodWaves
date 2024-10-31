@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5a0269d3-f4f4-4f3d-b6d3-e664d14b23d9}">
+		<property name="assetPath">
+			<value>tanquemezcla.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>70.876009070294785</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{374a7e8a-5a9e-4e8c-aaee-39332455bff7}</destination>
+		</relationship>
+	</object>
+</objects>
