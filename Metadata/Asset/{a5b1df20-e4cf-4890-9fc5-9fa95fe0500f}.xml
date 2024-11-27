@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{a5b1df20-e4cf-4890-9fc5-9fa95fe0500f}">
+		<property name="assetPath">
+			<value>Disparo2/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{374a7e8a-5a9e-4e8c-aaee-39332455bff7}</destination>
+		</relationship>
+	</object>
+</objects>
